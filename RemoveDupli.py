@@ -1,0 +1,5 @@
+n=input("Enter the List of numbers")
+m=list(n.split(" "))
+m1=list(set(m))
+m1.sort()
+print(m1)
